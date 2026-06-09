@@ -94,6 +94,21 @@ ManufacturingCellAnalytics/
 
 ## 🚀 Instalación
 
+### Requisitos
+
+Se recomienda utilizar:
+
+* Python 3.11.x ✅
+* Python 3.12.x ✅
+
+> **Importante:** Algunas librerías de Inteligencia Artificial y Machine Learning, como TensorFlow, pueden presentar problemas de compatibilidad con versiones más recientes de Python (3.13 y superiores). Para garantizar el correcto funcionamiento del proyecto se recomienda trabajar con Python 3.11 o Python 3.12.
+
+Verificar la versión instalada:
+
+```bash
+python --version
+```
+
 ### Clonar repositorio
 
 ```bash
@@ -122,12 +137,17 @@ Linux / Mac:
 source venv/bin/activate
 ```
 
+### Actualizar pip
+
+```bash
+python -m pip install --upgrade pip
+```
+
 ### Instalar dependencias
 
 ```bash
 pip install -r requirements.txt
 ```
-
 ---
 
 ## ⚙️ Generar Dataset
@@ -214,21 +234,7 @@ El sistema permite:
 
 ---
 
-## 👨‍🏫 Autor
 
-**Ing. Joel Calderón Flores**
-
-Docente e Ingeniero en Mecatrónica
-
-Especialista en:
-
-* Sistemas Embebidos
-* Diseño Electrónico
-* PCB Design
-* Inteligencia Artificial Industrial
-* Industria 4.0
-
----
 
 ## 📄 Licencia
 
